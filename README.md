@@ -1,4 +1,4 @@
-# palets_app
+# credits_app
 
 A new Flutter project.
 
