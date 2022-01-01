@@ -14,8 +14,6 @@ Future main() async {
   await UserSimplePreferences.init();
   bool isLoggedIn = await UserSimplePreferences.isLoggedIn();
   runApp(MyApp(isLoggedIn: isLoggedIn));
-  //sdfasdfdsfsafasafsdasdfsdfsdfsdfffsdadsfadsfadf
-  print("hPPY NEW YWAR");
 }
 
 class MyApp extends StatelessWidget {
