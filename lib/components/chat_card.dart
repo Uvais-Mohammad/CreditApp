@@ -173,11 +173,10 @@ class ChatCard extends StatelessWidget {
     );
     return GestureDetector(
       onLongPress: () {
-        print(chatModel.inv);
         showDialog<void>(
             context: context,
             builder: (context) => dialog,
-            chatModel: chatModel);
+            );
       },
       child: Align(
         alignment: chatModel.transactionType == 'Payment'
